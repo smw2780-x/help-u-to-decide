@@ -3,4 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help You to Decide...</title>
+    <title>help you to decide…</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>help you to decide…</h1>
+
+        <div class="form-group">
+            <label for="categorySelect">Choose Category</label>
+            <select id="categorySelect">
+                <option value="people">People's Names</option>
+                <option value="tasks">Tasks to Do</option>
+                <option value="foods">Foods to Cook & Eat</option>
+            </select>
+        </div>
+
+        <div class="result-box">
+            <div id="resultDisplay" class="result-text">Click button to decide!</div>
+        </div>
+
+        <button id="pickButton" class="pick-btn">Decide for Me!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
